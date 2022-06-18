@@ -174,3 +174,9 @@ Youtube learn python list :
 # word_list=["Ssd","Hdd","Ram","Rom","Cpu"]
 # print(word_list[2],word_list[0])
 
+food=["apple","chary","mango","banana",""]
+newlist=[]
+for x in food:
+    if "n" in x :
+        newlist.append(x)
+print(newlist)
